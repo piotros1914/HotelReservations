@@ -40,10 +40,10 @@ public class RoomController {
 			room3.setSizeOfRoomInPersons(3);
 			room4.setSizeOfRoomInPersons(4);
 			
-			room1.setPositionOfWindow("PÛ≥noc");
-			room2.setPositionOfWindow("Po≥udnie");
-			room3.setPositionOfWindow("WschÛd");
-			room4.setPositionOfWindow("ZachÛd");
+			room1.setPositionOfWindow("P√≥≈Çnoc");
+			room2.setPositionOfWindow("Po≈Çudnie");
+			room3.setPositionOfWindow("Wsch√≥d");
+			room4.setPositionOfWindow("Zach√≥d");
 			
 			room1.setPrice(100 * i);
 			room2.setPrice(150 * i);
