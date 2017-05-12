@@ -56,7 +56,4 @@ public class ReservationFormValidator implements Validator {
 	public void setRoom(Room room) {
 		this.room = room;
 	}
-	
-	
-
 }

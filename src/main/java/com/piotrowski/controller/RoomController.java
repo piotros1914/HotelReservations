@@ -21,7 +21,7 @@ public class RoomController {
 		return "rooms";
 	}
 	
-	//@RequestMapping("/addRooms")
+	@RequestMapping("/addRooms")
 	public String onlyOneAddRooms(Model model) {
 		
 		for(int i=0; i<=10; i++){
@@ -45,10 +45,10 @@ public class RoomController {
 			room3.setPositionOfWindow("Wschód");
 			room4.setPositionOfWindow("Zachód");
 			
-			room1.setPrice(100 * i);
-			room2.setPrice(150 * i);
-			room3.setPrice(200 * i);
-			room4.setPrice(250 * i);
+			room1.setPrice(100 * i + 100);
+			room2.setPrice(150 * i + 100);
+			room3.setPrice(200 * i + 100);
+			room4.setPrice(250 * i + 100);
 			
 			roomService.addRoom(room1);
 			roomService.addRoom(room2);

@@ -38,19 +38,19 @@ public class SecurityController {
 	 
 	        switch (httpErrorCode) {
 	            case 400: {
-	                errorMsg = "400. Nast¹pi³o niepoprane ¿adanie do serwera";
+	                errorMsg = "400. NastÄ…piÅ‚o niepoprawne Å¼Ä…danie do serwera";
 	                break;
 	            }
 	            case 401: {
-	                errorMsg = "401. B³¹d autoryzacji.";
+	                errorMsg = "401. BÅ‚Ä…d autoryzacji.";
 	                break;
 	            }
 	            case 404: {
-	                errorMsg = "404. Podana strona nie zosta³a znaleziona";
+	                errorMsg = "404. Podana strona nie zostaÅ‚a znaleziona";
 	                break;
 	            }
 	            case 500: {
-	                errorMsg = "500. Nast¹pi³ wewnêtrzny b³¹d serwera.";
+	                errorMsg = "500. NastÄ…piÅ‚ wewnÄ™trzny bÅ‚Ä…d serwera.";
 	                break;
 	            }
 	        }

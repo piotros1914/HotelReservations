@@ -19,7 +19,6 @@ public class CustomerDaoImpl implements CustomerDao {
 		sessionFactory.getCurrentSession().saveOrUpdate(customer);
 		
 	}
-	
 	@Override
 	public Customer addCustomerAndReturnWithId(Customer customer) {
 		sessionFactory.getCurrentSession().saveOrUpdate(customer);
@@ -40,6 +39,5 @@ public class CustomerDaoImpl implements CustomerDao {
 	public void deleteCustomer(Customer customer) {
 		sessionFactory.getCurrentSession().createQuery("DELETE FROM User WHERE id = " + customer.getId())
 				.executeUpdate();
-
 	}
 }
